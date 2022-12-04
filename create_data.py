@@ -63,14 +63,3 @@ if __name__ == '__main__':
     print("Subspace Alignment Experiment data:")
     print("source data : ", dict(sorted(Counter(data_S.iloc[:,-1]).items())))
     print("target data : ", dict(sorted(Counter(data_T.iloc[:,-1]).items())))
-
-    # # binary 
-    # data_S = mutil2binary(data_S)
-    # data_T = mutil2binary(data_T)
-    # data_S.to_csv('data/data4_source_data.csv')
-    # data_T.to_csv('data/data4_target_data.csv')
-    # print("TrAdaboost and SA Experiment data:")
-    # print("source data : ", dict(sorted(Counter(data_S.iloc[:,-1]).items())))
-    # print("target data : ", dict(sorted(Counter(data_T.iloc[:,-1]).items())))
-
-
